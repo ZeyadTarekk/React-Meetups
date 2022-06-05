@@ -21,9 +21,12 @@
 - [License](#license)
 
 ## 📙 About <a name = "about"></a>
-- A meetup page that allows you to add a meetup and store it in firebase.
+- A single page application that allows you to add a meetup and store it in firebase.
 - Fetches all the meetups from fireabase
 - Favorite some meetings and add them to favorites page
+- Switch between pages using reacr router
+- Manage state by context-api
+- Using some react hooks to do different things
 
 ## 🏁 Getting Started <a name = "get-started"></a>
 
