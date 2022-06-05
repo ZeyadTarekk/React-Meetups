@@ -55,7 +55,7 @@ npm install
 1. **_Running on development mode_**
 
 ```sh
-npm run dev
+npm start
 ```
 
 Open http://localhost:3000 with your browser to see the result
