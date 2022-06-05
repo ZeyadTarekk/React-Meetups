@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![GitHub contributors](https://img.shields.io/github/contributors/ZeyadTarekk/React-Meetups)](https://github.com/ZeyadTarekk/React-Meetups/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/ZeyadTarekk/React-Meetups)](https://github.com/ZeyadTarekk/React-Meetups/issues)
+[![GitHub license](https://img.shields.io/github/license/ZeyadTarekk/React-Meetups)](https://github.com/ZeyadTarekk/React-Meetups/blob/master/LICENSE)
+[![GitHub forks](https://img.shields.io/github/forks/ZeyadTarekk/React-Meetups)](https://github.com/ZeyadTarekk/React-Meetups/network)
+[![GitHub stars](https://img.shields.io/github/stars/ZeyadTarekk/React-Meetups)](https://github.com/ZeyadTarekk/React-Meetups/stargazers)
+[![GitHub Language](https://img.shields.io/github/languages/top/ZeyadTarekk/React-Meetups)](https://img.shields.io/github/languages/count/ZeyadTarekk/React-Meetups)
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+## 📝 Table of Contents
 
-### `npm start`
+- [About](#about)
+- [Get started](#get-started)
+  - [Installation](#Install)
+  - [Running](#running)
+- [Technology](#tech)
+- [Screenshots](#Screenshots)
+- [Contributors](#Contributors)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📙 About <a name = "about"></a>
+- A meetup page that allows you to add a meetup and store it in firebase.
+- Fetches all the meetups from fireabase
+- Favorite some meetings and add them to favorites page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🏁 Getting Started <a name = "get-started"></a>
 
-### `npm test`
+> This is an list of needed instructions to set up your project locally, to get a local copy up and running follow these
+> instructuins.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation <a name = "Install"></a>
 
-### `npm run build`
+1. **_Clone the repository_**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+$ git clone https://github.com/ZeyadTarekk/React-Meetups.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **_Navigate to repository directory_**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+$ cd React-Meetups
+```
 
-### `npm run eject`
+3. **_Install dependencies_**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Running <a name = "running"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **_Running on development mode_**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+npm run dev
+```
 
-## Learn More
+Open http://localhost:3000 with your browser to see the result
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **_Compiling for production mode_**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm run build
+```
 
-### Code Splitting
+## 💻 Built Using <a name = "tech"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **React.js**
+- **Firebase**
 
-### Analyzing the Bundle Size
+## 📷 Demo Screenshots <a name = "Screenshots"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<div align="center">
+<h3 align='left'>Main Screen</h3>
+   <img src="screenshots/s1.png">
+<h3 align='left'>Add to Favorites</h3>
+   <img  src="screenshots/s2.png"></a>
 
-### Making a Progressive Web App
+<h3 align='left'>Favorites Page</h3>
+<img src="screenshots/s3.png"></a>
+<h3 align='left'>Add a new meetup</h3>
+<img src="screenshots/s4.png"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+</div>
 
-### Advanced Configuration
+## Contributors <a name = "Contributors"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<table>
+  <tr>
+    <td align="center">
+    <a href="https://github.com/ZeyadTarekk" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/76125650?v=4" width="150px;" alt="Zeyad Tarek"/>
+    <br />
+    <sub><b>Zeyad Tarek</b></sub></a>
 
-### Deployment
+  </tr>
+ </table>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## License <a name = "license"></a>
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> This software is licensed under MIT License, See [License](https://github.com/ZeyadTarekk/React-Meetups/blob/main/LICENSE) for more information.
